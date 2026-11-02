@@ -14,6 +14,7 @@ club_info = {
 
 activities = [
     "Full Court 5v5 Basketball Games",
+    "Half Court 3v3 Basketball Games",
     "Skills Training",
     "Basketball Related Contests for Prizes",
 ]
