@@ -1,21 +1,21 @@
 # CIS 211 Lab 4 starter
-# Youth Basketball Club
+# Campus Basketball Club
 
 import streamlit as st
 
 
 club_info = {
-    "name": "Youth Basketball Club",
-    "day": "Saturday",
-    "time": "11:00 PM",
+    "name": "Campus Basketball Club",
+    "day": "Tuesday",
+    "time": "6:00 PM",
 }
 
 
 
 activities = [
-    "Friendly Basketball Games",
+    "Full Court 5v5 Basketball Games",
     "Skills Training",
-    "Team Bonding and Sportsmanship",
+    "Basketball Related Contests for Prizes",
 ]
 
 st.title(club_info["name"])
@@ -26,11 +26,10 @@ st.caption("A fictional CIS 211 course project. These are not real campus arrang
 
 st.header("About Our Club")
 st.markdown("""
-The **Youth Basketball Club** is a place where young players can come together
-to improve their basketball skills and learn more about the game.
-Our goal is to help players become better at basketball while also teaching
-them the importance of *teamwork and sportsmanship*.
-We welcome players of all skill levels who want to learn and have fun.
+The **Campus Basketball Club** is the perfect place for college students to ease their mind off school. Our club organizes pickup games, tournaments, and skillwork sessions where students
+can sharpen themselves as players and compete in a *friendly environment*.
+We welcome students of all skill levels, whether they are experienced players
+or just looking to have fun.
 """)
 
 
@@ -48,9 +47,9 @@ st.header("What to Bring")
 st.markdown("""
 - Basketball Shoes
 - Comfortable Athletic Clothes
-- A Water Bottle
+- Signed Waiver
 
-Learn more about youth basketball at the [Jr. NBA website](https://jr.nba.com/).
+Learn more about club basketball at the [NIRSA website]https://nirsa.net/).
 """)
 
 
