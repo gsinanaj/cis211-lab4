@@ -6,7 +6,7 @@ import streamlit as st
 
 club_info = {
     "name": "Campus Basketball Club",
-    "day": "Tuesday",
+    "day": "Monday",
     "time": "6:00 PM",
 }
 
